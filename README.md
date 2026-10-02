@@ -1,4 +1,4 @@
-# We recommendet to target MID, 51-200 size, healthcare companies in US market basing on data proofs:
+# I am recommending to target MID, 51-200 size, healthcare companies in US market basing on data proofs:
 1. Shares are higher for MID segment 14%, for 51-200 size 29%, for healthcare 21% and for US 11% on average compering best cohorts to poor cohorts
 2. LTV for mentioned best cohorts are higher on average 123$
 3. Pro plans for the best cohorts have on average 1.72% more customers 

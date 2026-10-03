@@ -33,8 +33,8 @@
 
 # What I did:
 ### Artifacts
-- Jupyter notebook code
-- cohort_analysis_povot_table.xlsx
+- Python code in file  "Python data analysis - LTV, ARPU, Churn.ipynb"
+- Excel file with pivot tables "cohort_analysis_povot_table.xlsx"
 
 ### Step by step
 - Imported pandas and files .csv;

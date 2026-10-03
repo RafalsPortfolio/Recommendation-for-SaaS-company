@@ -32,6 +32,11 @@
 - https://www.kaggle.com/datasets/mounikabusi/saas-customer-churn-dataset
 
 # What I did:
+**Artifacts**
+- Jupyter notebook code
+- cohort_analysis_povot_table.xlsx
+
+**Step by step** 
 - Imported pandas and files .csv;
 - Replaced things to make data consistent as removeing spaces, unexpected characters and words. Example P_PRO, P_Pro to p_pro or " " to "";
 - Assign data types to data frames;

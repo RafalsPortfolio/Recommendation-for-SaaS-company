@@ -1,8 +1,8 @@
 # Recommendation
 ### I am recommending to target MID, 51-200 size, healthcare companies in US market basing on data proofs:
-1. Shares are higher for MID segment 14%, for 51-200 size 29%, for healthcare 21% and for US 11% on average compering best cohorts to poor cohorts
-2. LTV for mentioned best cohorts are higher on average 123$
-3. Pro plans for the best cohorts have on average 1.72% more customers 
+1. Best cohorts' LTV is higher on average 123$
+2. Pro plan has on average 1.72% more customers and basic plan has 2.31 less customers in the best cohorts
+3. Shares are higher for MID segment 14%, for 51-200 size 29%, for healthcare 21% and for US 11% on average compering best cohorts to poor cohorts
 
 ### What risks we may face:
 1. Difference in cohorts segments are quite small few percentage points, may be not statistically significant cause we have lack of data.

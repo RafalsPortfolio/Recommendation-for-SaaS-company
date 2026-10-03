@@ -4,11 +4,11 @@
 2. Pro plan has on average 1.72% more customers and basic plan has 2.31 less customers in the best cohorts
 3. Shares are higher for MID segment 14%, for 51-200 size 29%, for healthcare 21% and for US 11% on average compering best cohorts to poor cohorts
 
-#### What risks we may face. We may face data risk as:
+**What risks we may face. We may face data risk as:**
 1. Difference in cohorts segments are quite small few percentage points;
 2. Data may be not statistically significant cause we have small amount of data.
 
-#### Next steps are:
+**Next steps are:**
 1. Prepare survey to make sure we will be targeting correct one
 2. Start preparing new marketing strategy targeting MID Healthcare companies (51-200 employees) in the US market
 3. Start to develop converting incentives for basic plan conversion to pro plan

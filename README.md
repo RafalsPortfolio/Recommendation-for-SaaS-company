@@ -1,54 +1,62 @@
-# What I would recommend
-### 1. I am recommending to target MID, 51-200 size, healthcare companies in US market basing on data proofs:
-1. Best cohorts' LTV is higher on average 123$
-2. Pro plan has on average 1.72% more customers and basic plan has 2.31 less customers in the best cohorts
-3. Shares are higher for MID segment 14%, for 51-200 size 29%, for healthcare 21% and for US 11% on average compering best cohorts to poor cohorts
+# What I recommend
 
-#### What risks we may face. We may face data risk as:
-1. Difference in cohorts segments are quite small few percentage points;
-2. Data may be not statistically significant cause we have small amount of data.
+### 1. Target MID (51–200 employees) healthcare companies in the US market based on data proofs:
+1. Best cohorts' LTV is higher by $123 on average.
+2. The Pro plan has 1.72% more customers on average, and the Basic plan has 2.31% fewer customers in the best cohorts.
+3. Segment shares in the best cohorts compared to poor cohorts are higher on average for:
+   - MID segment (+14%)
+   - Company size 51–200 (+29%)
+   - Healthcare industry (+21%)
+   - US market (+11%)
 
-#### Next steps are:
-1. Prepare survey to make sure we will be targeting correct one
-2. Start preparing new marketing strategy targeting MID Healthcare companies (51-200 employees) in the US market
-3. Start to develop converting incentives for basic plan conversion to pro plan
-4. Monitor retention rate monthly to validate if targeting changes improve cohort performance
+#### Risks:
+1. Differences in cohort segments are relatively small (only a few percentage points).
+2. Data may not be statistically significant due to the small sample size.
 
-### 2. I recommend increase price for basic plan from 29$ to 39$ cause:
-1. Customer Life Time Value is 142$ for basic plan, 339$ for pro plan -- 139% more then basic plan'.  
-2. Basic plan have 40$ price difrerence comparing to pro plan - Pro plan is more expensive about 170%;
-3. Avg. life time for basic plan is longer about 18 days. (0.6 = p_basic -- p_pro).
+#### Next steps:
+1. Prepare a survey to ensure the correct target audience is selected.
+2. Start preparing a new marketing strategy targeting MID Healthcare companies (51–200 employees) in the US market.
+3. Develop incentives to drive conversions from the Basic plan to the Pro plan.
+4. Monitor the retention rate monthly to validate whether targeting changes improve cohort performance.
 
-#### What risks we may face. We may face revenue decrease from this basic plan cause:
-- Churn may go up
-- CL and CLV may go down
-- ARPU may go down
+---
 
-#### Next steps are:
-- Increase prices to 39$
-- Observe ARPU, CL, CLV and Churn for this cohort. 
+### 2. Increase the price for the Basic plan from $29 to $39 based on:
+1. Customer Lifetime Value (CLV) is $142 for the Basic plan vs. $339 for the Pro plan (139% higher than Basic).
+2. The Pro plan currently costs $40 more than the Basic plan (138% more expensive).
+3. Average customer lifetime for the Basic plan is longer by approximately 18 days ($p_{basic} - p_{pro} \approx 0.6$ months).
 
-# Where I got the data from:
-- https://www.kaggle.com/datasets/mounikabusi/saas-customer-churn-dataset
+#### Risks (potential revenue decrease from the Basic plan):
+- Churn rate may increase.
+- Customer Lifetime (CL) and Customer Lifetime Value (CLV) may decrease.
+- Average Revenue Per User (ARPU) may decrease.
 
-# What I did:
-### Artifacts
-- Python code in file  "Python data analysis - LTV, ARPU, Churn.ipynb"
-- Excel file with pivot tables "cohort_analysis_povot_table.xlsx"
+#### Next steps:
+- Increase the Basic plan price to $39.
+- Monitor ARPU, CL, CLV, and Churn for the new cohorts.
+
+---
+
+# Data source
+- Kaggle Dataset: [SaaS Customer Churn Dataset](https://www.kaggle.com/datasets/mounikabusi/saas-customer-churn-dataset)
+
+# Deliverables & Artifacts
+- Python analysis code: `Python data analysis - LTV, ARPU, Churn.ipynb`
+- Excel cohort pivot tables: `cohort_analysis_pivot_table.xlsx`
 
 ### Step by step
-- Imported pandas and files .csv;
-- Replaced things to make data consistent as removeing spaces, unexpected characters and words. Example P_PRO, P_Pro to p_pro or " " to "";
-- Assign data types to data frames;
-- Filtering data frames to analysis;
-- Count churn rate for all cohorts from prepared data frames;
-- Count churn rate, retention and share for all subscription plans Basic, Pro and Enterprise;
-- Filter data for all plans to receive only churned customer then count Customer Life Time;
-- Save data to file then use pivot tables to get churn for all cohorts;
-- Choose best performing cohorts and compared to the rest;
-- Countr segments shares for cohorts;
-- Compering segments in cohorts;
-- Count Average Revenue Per User and Life Time Value for cohorts
-- Comparing distribution of plans and checking avg. difference between best performing cohorts and rest;
-- Checking ARPU, Churn, TVL and Avg Life Time Value difference (Avg. from TOP5 - Avg. from BOTTOM 5) for all cohorts;
-- Check procentag difference between best performing cohorts and bottom rest. 
+* Import pandas and CSV files;
+* Replace things to make data consistent, such as removing spaces, unexpected characters, and words (e.g., standardizing `P_PRO` and `P_Pro` to `p_pro`, or `" "` to `""`);
+* Assign data types to data frames;
+* Filter data frames for analysis;
+* Count churn rate for all cohorts from prepared data frames;
+* Count churn rate, retention, and share for all subscription plans: Basic, Pro, and Enterprise;
+* Filter data for all plans to receive only churned customers, then count customer lifetime;
+* Save data to file, then use pivot tables to get churn for all cohorts;
+* Choose best-performing cohorts and compare them to the rest;
+* Count segments' shares for cohorts;
+* Compare segments in cohorts;
+* Count Average Revenue Per User and Lifetime Value for cohorts;
+* Compare distribution of plans and check the average difference between best-performing cohorts and the rest;
+* Check ARPU, Churn, LTV, and Average Lifetime Value differences (Avg. from TOP 5 - Avg. from BOTTOM 5) for all cohorts;
+* Check percentage difference between best-performing cohorts and the bottom/rest.
